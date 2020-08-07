@@ -1,0 +1,74 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color:rgb(52,174,235);
+    color:whitesmoke;
+    font-size: 20px;
+}
+h1{color: white;}
+.red{color:#eb8c34;}
+div.header{
+    text-align: center;
+}
+div.list-gen{
+    margin: 0;
+}
+div.list{
+    width: 85%;
+    border: none;
+    background-color:rgb(30,30,30);
+    margin-left: 1.7rem;
+}
+div.list-2{
+    width: 85%;
+    border: none;
+    background-color:rgb(50,50,50);
+    margin-left: 1.7rem;
+}
+div.list-contener{
+    margin: 20px;
+}
+input[type='text'].style1{
+    padding: 15px 20px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    border: none;
+    width: 600px;
+    background-color:whitesmoke;
+    color:#36454f;
+}
+button.style1{
+    padding: 15px 20px;
+   margin-left: 10px;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+button.cancel{
+    border: none;
+    border-radius: 5px;
+    background-color:#eb8c34;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin: 5px;
+    cursor: pointer;
+}
+button{
+    outline: none;
+}
+input{
+    outline: none;
+}
+p{
+    scroll-padding-bottom: 5px;
+}
